@@ -4,12 +4,15 @@ import { FaTeethOpen, FaTooth, FaSmile } from "react-icons/fa";
 const Orthodontics = () => {
   return (
     <div className="mt-6">
+       <title>Orthodontic Treatments | Braces & Aligners at SmileCare Dental Clinic</title>
+      <meta name="description" content="Straighten your teeth with expert orthodontic treatments at SmileCare Dental Clinic. We offer metal braces, ceramic braces, and invisible aligners for all ages." />
+
       {/* Banner Section */}
       <div
         className="relative h-64 md:h-80 bg-cover bg-center"
         style={{
           backgroundImage:
-            "url('https://images.unsplash.com/photo-1606813902915-d7435eecb7e6?auto=format&fit=crop&w=1470&q=80')",
+            "url('/smilecare-dental/images/orthodontic_header.jpg')",
         }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
@@ -83,7 +86,7 @@ const Orthodontics = () => {
           </div>
           <div>
             <img
-              src="https://images.unsplash.com/photo-1629909613560-f7b7478e1c02?auto=format&fit=crop&w=1470&q=80"
+              src="/smilecare-dental/images/orthodontic.jpg"
               alt="Orthodontics"
               className="rounded-xl shadow-md"
             />

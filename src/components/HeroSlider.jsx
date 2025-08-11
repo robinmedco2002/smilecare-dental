@@ -4,17 +4,17 @@ import { Link } from "react-router-dom";
 
 const slides = [
   {
-    image: "./images/hero1.jpg",
+    image: `${import.meta.env.BASE_URL}images/hero1.jpg`,
     heading: "Your Smile, Our Passion",
     subtext: "Providing advanced dental care with a personal touch.",
   },
   {
-    image: "/images/hero2.jpg",
+   image: `${import.meta.env.BASE_URL}images/hero2.jpg`,
     heading: "Bright Smiles, Healthy Lives",
     subtext: "Experience modern dentistry with comfort and care.",
   },
   {
-    image: "/images/hero3.jpg",
+    image: `${import.meta.env.BASE_URL}images/hero3.jpg`,
     heading: "Confidence Starts with a Smile",
     subtext: "Achieve your perfect smile with our expert team.",
   },

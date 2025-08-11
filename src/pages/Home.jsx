@@ -1,6 +1,6 @@
 import HeroSlider from "../components/HeroSlider";
 import { FaCheckCircle } from "react-icons/fa";
-
+import { Link } from "react-router-dom";
 import ServicesPreview from "../components/ServicesPreview"; // if you have separate component
 // import ClinicIntro from "../components/ClinicIntro"; // image+text intro
 // import FeatureHighlights from "../components/FeatureHighlights";
@@ -21,6 +21,9 @@ import DentalCareTips from "../components/dentalCareTips";
 const Home = () => {
   return (
     <div className="w-full overflow-x-hidden">
+       <title>Best Dental Clinic in Delhi | Quality & Affordable Care</title>
+      <meta name="description" content="Experience expert dental care at Delhi. We offer teeth whitening, braces, dental implants, and more — all in a friendly, modern clinic. Book your appointment today!" />
+
       <HeroSlider />
        {/* Welcome / Intro */}
      <section className="py-16 px-4 sm:px-8 bg-gray-50 text-gray-800">
@@ -48,7 +51,8 @@ const Home = () => {
           </div>
           <div>
             <img
-              src="/images/home-clinic.jpg"
+              src={`${import.meta.env.BASE_URL}images/home-clinic.jpg`}
+              
               alt="Clinic interior"
               className="rounded-xl shadow-lg w-full object-cover"
             />
@@ -80,8 +84,12 @@ const Home = () => {
             </p>
           </div>
           <div className="flex-1 text-center">
-            <a href="/appointment"  className="inline-block bg-white text-blue-600 font-semibold px-8 py-3 rounded shadow hover:shadow-md transition"
-            > Schedule Now </a>
+           <Link
+  to="/appointment"
+  className="inline-block bg-white text-blue-600 font-semibold px-8 py-3 rounded shadow hover:shadow-md transition"
+>
+  Schedule Now
+</Link>
           </div>
         </div>
       </section>

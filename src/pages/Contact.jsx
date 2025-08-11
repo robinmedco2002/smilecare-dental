@@ -3,6 +3,9 @@ import React from "react";
 const Contact = () => {
   return (
     <section className="bg-white py-16" id="contact">
+       <title>Contact SmileCare Dental | Book Your Dental Visit Today</title>
+      <meta name="description" content="Have questions or need to book an appointment? Contact us today. We're here to help you achieve a healthier, brighter smile." />
+
       <div className="max-w-7xl mx-auto px-4">
         <h2 className="text-3xl font-bold text-center text-gray-800 mb-10">Contact Us</h2>
 

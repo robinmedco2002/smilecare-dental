@@ -4,12 +4,15 @@ import { FaTooth, FaHeartbeat, FaAmbulance } from "react-icons/fa";
 const EmergencyCare = () => {
   return (
     <div className="mt-6">
+      <title>24/7 Emergency Dental Care in Delhi | Urgent Tooth Pain & Injury</title>
+      <meta name="description" content="Get fast, professional emergency dental care for tooth pain, broken teeth, or oral injuries. Our team is here 24/7 to relieve pain and restore your smile quickly." />
+
       {/* Banner Section */}
       <div
         className="relative h-64 md:h-80 bg-cover bg-center"
         style={{
           backgroundImage:
-            "url('https://images.unsplash.com/photo-1588776814546-0f4d3f6b8d9d?auto=format&fit=crop&w=1470&q=80')",
+            "url('/smilecare-dental/images/emergency_care_header.jpg')",
         }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
@@ -82,7 +85,7 @@ const EmergencyCare = () => {
           </div>
           <div>
             <img
-              src="https://images.unsplash.com/photo-1606813902783-9f9b8b7c1e3b?auto=format&fit=crop&w=1470&q=80"
+              src="/smilecare-dental/images/emergency_care_img.jpg"
               alt="Emergency Dental Care"
               className="rounded-xl shadow-md"
             />

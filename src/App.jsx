@@ -32,7 +32,7 @@ function App() {
   }, []);
   
   return (
-    <Router>
+    <Router basename="/smilecare-dental">
       <Navbar />
       <div className="pt-20"> {/* padding to avoid content under navbar */}
         <Routes>

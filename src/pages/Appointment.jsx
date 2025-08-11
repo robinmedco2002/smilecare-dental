@@ -3,6 +3,9 @@ import React from "react";
 const Appointment = () => {
   return (
     <section className="min-h-screen py-12 bg-gray-50">
+       <title>Book a Dentist Appointment | SmileCare Dental</title>
+      <meta name="description" content="Schedule your dental appointment online. Choose a date and time that works best for you and receive the best dental care in Delhi" />
+      
       <div className="max-w-4xl mx-auto px-4">
         <h2 className="text-4xl font-bold text-blue-600 text-center mb-8">Book an Appointment</h2>
         <form

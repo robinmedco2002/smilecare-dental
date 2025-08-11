@@ -26,7 +26,7 @@ const DentalCareTips= () => {
           </div>
           <div className="flex-1">
             <img
-              src="/images/dental-tip.jpg"
+              src="/smilecare-dental/images/dental-tip.jpg"
               alt="Dental tips"
               className="rounded-xl shadow-lg w-full object-cover"
             />

@@ -4,22 +4,22 @@ const servicesData = [
   {
     title: "Teeth Whitening",
     description: "Brighten your smile with our safe and effective teeth whitening treatments.",
-    image: "/images/teeth-whitening.jpg",
+    image: "/smilecare-dental/images/teeth-whitening.jpg",
   },
   {
     title: "Braces & Aligners",
     description: "Straighten your teeth with modern, comfortable braces or clear aligners.",
-    image: "/images/braces.jpg",
+    image: "/smilecare-dental/images/braces.jpg",
   },
   {
     title: "Root Canal",
     description: "Save your natural tooth with our painless root canal procedures.",
-    image: "/images/root-canal.jpg",
+    image: "/smilecare-dental/images/root-canal.jpg",
   },
   {
     title: "Dental Implants",
     description: "Replace missing teeth with durable and natural-looking dental implants.",
-    image: "/images/dental-implants.jpg",
+    image: "/smilecare-dental/images/dental-implants.jpg",
   },
 ];
 
@@ -44,10 +44,12 @@ const extraSections = [
 export default function Services() {
   return (
     <div className="services-page">
+       <title>Dental Services | Teeth Whitening, Braces, Implants & More</title>
+      <meta name="description" content="Explore our range of dental services — from painless root canals to cosmetic dentistry. Get a healthy, confident smile with our expert team." />
       {/* Banner */}
       <div data-aos="fade-up"
         className="relative w-full h-64 md:h-80 bg-cover bg-center"
-        style={{ backgroundImage: `url('/images/services-banner.jpg')` }}
+        style={{ backgroundImage: `url('/smilecare-dental/images/services-banner.jpg')` }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
           <h1 className="text-white text-4xl md:text-5xl font-bold">Our Services</h1>

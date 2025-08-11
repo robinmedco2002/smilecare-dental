@@ -4,12 +4,15 @@ import { FaSmileBeam, FaTooth, FaGrinStars } from "react-icons/fa";
 const CosmeticDentistry = () => {
   return (
     <div className="mt-6">
+      <title>Cosmetic Dentistry in Delhi | Smile Makeovers & Teeth Whitening</title>
+      <meta name="description" content="Transform your smile with our cosmetic dentistry services — including teeth whitening, veneers, and smile makeovers. Achieve the confident smile you deserve at Delhi" />
+
       {/* Banner Section */}
       <div
         className="relative h-64 md:h-80 bg-cover bg-center"
         style={{
           backgroundImage:
-            "url('https://images.unsplash.com/photo-1588776814546-63a6b19d6e2a?auto=format&fit=crop&w=1470&q=80')",
+            "url('/smilecare-dental/images/cosmetic_dentistry_header.jpg')",
         }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
@@ -76,7 +79,7 @@ const CosmeticDentistry = () => {
           </div>
           <div>
             <img
-              src="https://images.unsplash.com/photo-1629909612750-015a4a7c2c79?auto=format&fit=crop&w=1470&q=80"
+              src="/smilecare-dental/images/cosmetic_dentistry.jpg"
               alt="Cosmetic Dentistry"
               className="rounded-xl shadow-md"
             />

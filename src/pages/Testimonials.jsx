@@ -9,35 +9,35 @@ const testimonials = [
   {
     name: "Anita Sharma",
     location: "Delhi",
-    image: "/images/patient1.jpg",
+    image: "/smilecare-dental/images/patient1.jpg",
     rating: 5,
     review: "Very professional and caring staff. My root canal was painless. Highly recommended!",
   },
   {
     name: "Rahul Verma",
     location: "Mumbai",
-    image: "/images/patient2.jpg",
+    image: "/smilecare-dental/images/patient2.jpg",
     rating: 5,
     review: "The best dental care I've ever experienced. Friendly doctors and clean clinic.",
   },
   {
     name: "Priya Desai",
     location: "Ahmedabad",
-    image: "/images/patient3.jpg",
+    image: "/smilecare-dental/images/patient3.jpg",
     rating: 4,
     review: "Excellent service and great results. My smile has never looked better!",
   },
   {
     name: "Karan Mehta",
     location: "Pune",
-    image: "/images/patient4.jpg",
+    image: "/smilecare-dental/images/patient4.jpg",
     rating: 5,
     review: "Modern facilities, skilled dentists, and no waiting time. Highly satisfied!",
   },
   {
     name: "Sneha Reddy",
     location: "Hyderabad",
-    image: "/images/patient5.jpg",
+    image: "/smilecare-dental/images/patient5.jpg",
     rating: 5,
     review: "They made my daughter feel comfortable during her braces treatment. Thank you!",
   },
@@ -46,6 +46,9 @@ const testimonials = [
 const TestimonialsCarousel = () => {
   return (
     <section className="py-16 bg-gray-50">
+       <title>Patient Testimonials | SmileCare Dental Clinic</title>
+      <meta name="description" content="Read real patient reviews and success stories at SmileCare Dental Clinic. See how we’ve transformed smiles and built trust through exceptional dental care." />
+
       <div className="max-w-7xl mx-auto px-4">
         <h2 className="text-3xl font-bold text-center text-gray-800 mb-10">
           What Our Patients Say

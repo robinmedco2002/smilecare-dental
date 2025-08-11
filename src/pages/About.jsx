@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import aboutImg1 from "../assets/about1.jpg";
 import aboutImg2 from "../assets/about2.jpg";
 import aboutImg3 from "../assets/about3.jpg";
@@ -118,12 +119,12 @@ const About = () => {
       <div className="bg-blue-600 text-white py-10 text-center rounded-xl mt-16">
         <h3 className="text-2xl font-semibold mb-2">Ready to Transform Your Smile?</h3>
         <p className="mb-4">Book your consultation today and take the first step.</p>
-        <a
-          href="/contact"
-          className="inline-block bg-white text-blue-600 font-medium px-6 py-2 rounded-full shadow hover:bg-gray-100 transition"
-        >
-          Contact Us
-        </a>
+        <Link
+  to="/contact"
+  className="inline-block bg-white text-blue-600 font-medium px-6 py-2 rounded-full shadow hover:bg-gray-100 transition"
+>
+  Contact Us
+</Link>
       </div>
     </section>
     </>

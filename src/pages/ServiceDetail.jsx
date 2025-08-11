@@ -4,12 +4,15 @@ import { FaTooth, FaTeeth, FaUserMd } from "react-icons/fa";
 const GeneralDentistry = () => {
   return (
     <div className="mt-6">
+      <title>Dental Service Details | SmileCare Dental Clinic</title>
+      <meta name="description" content="Learn more about our dental treatments at SmileCare Dental Clinic. Get detailed information on procedures, benefits, and aftercare for each service we offer." />
+
       {/* Banner Section */}
       <div
         className="relative h-64 md:h-80 bg-cover bg-center"
         style={{
           backgroundImage:
-            "url('https://images.unsplash.com/photo-1629909612844-61a93b229c8d?auto=format&fit=crop&w=1470&q=80')",
+            "url('/smilecare-dental/images/general_dentistry_header.jpg')",
         }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
@@ -76,10 +79,11 @@ const GeneralDentistry = () => {
           </div>
           <div>
             <img
-              src="https://images.unsplash.com/photo-1629909612794-67a9c97e8e10?auto=format&fit=crop&w=1470&q=80"
-              alt="General Dentistry"
-              className="rounded-xl shadow-md"
-            />
+  src="/smilecare-dental/images/general_dentistry.jpg"
+  alt="General Dentistry"
+  className="rounded-xl shadow-md"
+  loading="lazy"
+/>
           </div>
         </div>
       </div>
